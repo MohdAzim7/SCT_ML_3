@@ -8,7 +8,7 @@ The model is deployed using a **Streamlit web app** where users can upload image
 
 ---
 
-# ( Project Highlights
+# Project Highlights
 
 *  Image upload and real-time prediction
 *  HOG feature extraction for image analysis
@@ -19,7 +19,7 @@ The model is deployed using a **Streamlit web app** where users can upload image
 
 ---
 
-# >� Machine Learning Approach
+#  Machine Learning Approach
 
 This project follows a classical ML pipeline for image classification.
 
@@ -41,18 +41,18 @@ This project follows a classical ML pipeline for image classification.
 
 ---
 
-# =� Features
+#  Features
 
-## =� Image Classification
+## Image Classification
 
 Users can upload an image and the model predicts:
 
-* =1 Cat
-* =6 Dog
+*  Cat
+*  Dog
 
 ---
 
-## =� Confidence Score
+##  Confidence Score
 
 The model provides probability scores for each class:
 
@@ -61,13 +61,13 @@ The model provides probability scores for each class:
 
 ---
 
-## � Real-Time Prediction
+##  Real-Time Prediction
 
 Instant prediction results after image upload.
 
 ---
 
-# >� Tech Stack
+#  Tech Stack
 
 * Python
 * OpenCV
@@ -79,9 +79,9 @@ Instant prediction results after image upload.
 
 ---
 
-# =� How to Run the Project
+#  How to Run the Project
 
-## 1� Clone the Repository
+## 1 Clone the Repository
 
 ```bash
 git clone https://github.com/keerthanarajr/SCT_ML_3.git
@@ -90,7 +90,7 @@ cd SCT_ML_3
 
 ---
 
-## 2� Install Dependencies
+## 2 Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -98,7 +98,7 @@ pip install -r requirements.txt
 
 ---
 
-## 3� Train the Model
+## 3 Train the Model
 
 ```bash
 python train_model.py
@@ -112,7 +112,7 @@ models/svm_model.pkl
 
 ---
 
-## 4� Run the Application
+## 4 Run the Application
 
 ```bash
 streamlit run app.py
@@ -122,16 +122,16 @@ The app will open in your browser automatically.
 
 ---
 
-# =� Application Features
+#  Application Features
 
-* =� Upload image
-* =� Preview image
-* >� Predict Cat or Dog
-* =� Show confidence scores
+*  Upload image
+*  Preview image
+* Predict Cat or Dog
+* Show confidence scores
 
 ---
 
-# <� Project Objective
+# Project Objective
 
 The goal is to demonstrate how **classical machine learning can be used for image classification tasks**.
 
@@ -143,7 +143,7 @@ It helps understand:
 
 ---
 
-# � Limitations
+# Limitations
 
 * Not 100% accurate (SVM limitation)
 * Sensitive to image quality and lighting
@@ -151,7 +151,7 @@ It helps understand:
 
 ---
 
-# =. Future Improvements
+#  Future Improvements
 
 * Upgrade to CNN for higher accuracy
 * Add batch image prediction
@@ -160,7 +160,7 @@ It helps understand:
 
 ---
 
-# P Support
+# Support
 
 If you like this project, give it a star on GitHub P
 
